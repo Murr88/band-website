@@ -6,33 +6,74 @@ html {
     box-sizing: inherit;
 }
 
+body, caption, header, main, aside, .hero, footer, .tour-head, .tour-dates, .center {
+    background-image: url(images/inner_pages_bg.jpg);
+    font-family:"Rock Salt", helvetica, arial, sans-serif;
+    
+}
+
+hr {
+    background-color:sandybrown;
+    height:0px;
+    border-top: 1px whitesmoke;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
 header{
     font-family:"Rock Salt";
+    align-items:stretch;
     color:#ffffff;
     padding: 2px;
-    background-image:url(images/inner_pages_bg.jpg);
 }
 
 main{
-    width: 75%;
+    font-family:helvetica;
+    width: 100%;
     color:darkcyan;
     float: left;
-    padding: 2px;
-    background-image:url(images/inner_pages_bg.jpg);
+    text-align: center;
+    padding: 5px;
 }
 
 aside{
-    background-image:url(images/inner_pages_bg.jpg);
-    width: 25%;
+    width: 100%;
     color:darkcyan;
     float: left;
-    padding: 2px;
+    text-align: center;
+    padding: 5px;
 }
-
+.hero {
+    width: 30%;
+    color:darkcyan;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
 footer{
     clear: both;
     color:darkcyan;
     padding: 2px;
     text-align: center;
-    background-image:url(images/inner_pages_bg.jpg);
+}
+
+ul {
+    font-family: helvetica, sans-serif;
+    list-style-type: none;
+    padding: 0;
+  }
+
+.tour-dates {
+    color:royalblue;
+    font-size:larger;
+    text-align: center;
+}
+
+.tour-head {
+    color:whitesmoke;
+    float: none;
+    text-align: center;
 }
