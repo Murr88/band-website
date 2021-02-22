@@ -1,0 +1,38 @@
+/* See https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header{
+    font-family:"Rock Salt";
+    color:#ffffff;
+    padding: 2px;
+    background-image:url(images/inner_pages_bg.jpg);
+}
+
+main{
+    width: 75%;
+    color:darkcyan;
+    float: left;
+    padding: 2px;
+    background-image:url(images/inner_pages_bg.jpg);
+}
+
+aside{
+    background-image:url(images/inner_pages_bg.jpg);
+    width: 25%;
+    color:darkcyan;
+    float: left;
+    padding: 2px;
+}
+
+footer{
+    clear: both;
+    color:darkcyan;
+    padding: 2px;
+    text-align: center;
+    background-image:url(images/inner_pages_bg.jpg);
+}
